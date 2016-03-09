@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>diploma</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/bootstrap_3_3_5.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+        <script src="js/jquery-1-11-3.js"></script>
+        
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                
+            </div>
+        </div>
+        <h1 class="text-center">Метод морфологічного аналізу</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Морфологічна таблиця дослідження воєнних конфліктів</h2>
+                    <div id="table" class="container-fluid"></div>
+                    <br/>
+                    <h2>Попередні оцінки альтернатив параметрів</h2>
+                    <div id="table_data" class="container-fluid"></div>
+                    <br/>
+                    <h2>Нормовані оцінки альтернатив параметрів</h2>
+                    <div id="table_normalized" class="container-fluid"></div>
+                    <br/>
+                    <p>Матриці взаємозв'язків альтернатив параметрів (МВЗАП)</p>
+                    <div class="container-fluid" id="table_interconnections"></div>
+                    <br/>
+                    <div class="container-fluid" id="configuration1"></div>
+                    <br/>
+                    <p>Остаточні значення ймовірностей альтернатив параметрів, з урахуванням зв'язків з МВЗАП</p>
+                    <div class="container-fluid" id="defTable"></div>
+                    <h2></h2>
+                    <div class="container-fluid" id="secondStageTable"></div>
+                    <p></p>
+                    <div class="container-fluid" id="matrixOfConnections"></div>
+                    <br/>
+                    <div class="container-fluid" id="secondStageResult"></div>
+                    <p></p>
+                    <div class="container-fluid" id="events"></div>
+                </div>
+            </div>
+        </div>
+        <script src="js/sppr.js"></script>
+        <!--<script src="js/table.js"></script>-->
+        <script src="js/configurationTables_new.js"></script>
+        <!--<script src="js/configurationTable_back.js"></script>-->
+    </body>
+</html>
